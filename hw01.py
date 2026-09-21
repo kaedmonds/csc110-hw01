@@ -51,6 +51,8 @@ def main():
     b=7
     c=-1
     result1=(3*x - 9*y) / (2*a * (b - c))
+    # assigned values to x, y, a, b, c
+    # created a function using result1 to keep organized
 
     print("Part 1: x =", x)
     print("Part 1: y =", y)
@@ -71,6 +73,9 @@ def main():
     x=5
     y=-3
     result2=x**2*y**4
+    # reassigned variable values
+    # created result2 as a new function
+    
     print("Part 2: x =", x)
     print("Part 2: y =", y)
     print("Part 2: result =", result2)
@@ -86,6 +91,8 @@ def main():
     a=100
     b=13
     result3=a//b
+    #reassigning values to create result3
+    
     print("Part 3: a =", a)
     print("Part 3: b =", b)
     print("Part 3: result =", result3)
